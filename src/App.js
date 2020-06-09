@@ -8,25 +8,26 @@ function App() {
   return (
    <div className="nav-bar">
      <Layout>
-       <Header className="header-color" title="Personal Portfolio" scroll>
+       <Header className="header-color" title="Mpumelelo Mpe" scroll>
          <Navigation>
+           <Link to="/">Home</Link>
            <Link to="/about">About Me</Link>
            <Link to="/skills">Skills</Link>
-           <Link to="/projects">Projects</Link>
            <Link to="/contact">Contact Me</Link>            
          </Navigation>  
        </Header>
        <Drawer title="Mpumelelo Mpe">
        <Navigation>
-       <Link to="/about">About Me</Link>
+           <Link to="/">Home</Link>
+           <Link to="/about">About Me</Link>
            <Link to="/skills">Skills</Link>
-           <Link to="/projects">Projects</Link>
            <Link to="/contact">Contact Me</Link>
          </Navigation>
        </Drawer>
-       <content>
+       <Content>
          <div className="page-content" />
-       </content>
+         <Main/>
+       </Content>
      </Layout>
 
    </div>

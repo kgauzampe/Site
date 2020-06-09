@@ -1,17 +1,24 @@
 .header-color {
     background: grey;
-    background: -webkit-linear-gradient(to right, black,grey);
-    background: linear-gradient(to right, black,grey);
+    background: -webkit-linear-gradient(to right, black ,grey);
+    background: linear-gradient(to right, black, grey);
 }
 .landing-grid {
     background: grey;
     background: -webkit-linear-gradient(to right, black,grey);
     background: linear-gradient(to right, black,grey);
+   text-align: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100% ; 
 }
 
-.landingimg {
+.landing-img {
     height: 250px;
-    padding-top: 5em;
+    padding-top: 3em;
+    
 }
 .banner-text {
   background-color: black; 
@@ -24,4 +31,28 @@
   font-size: 66px;
   font-weight: bold; 
   color: antiquewhite;
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: antiquewhite;
+  font-size: 5em;
+  padding: 8px;
 }
