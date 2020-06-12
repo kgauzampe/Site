@@ -17,8 +17,8 @@
 
 .landing-img {
     height: 250px;
-    padding-top: 3em;
-    
+    padding-top: 5em;
+    border-radius: 100%;
 }
 .banner-text {
   background-color: black; 
@@ -55,4 +55,39 @@
   color: antiquewhite;
   font-size: 5em;
   padding: 8px;
+}
+
+.AboutMe {
+  text-align: center;
+  font-size: 50px;
+}
+
+.AboutMe p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.skills-Banner {
+  background-color: black; 
+  opacity: .8; 
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.skills-Banner h1 {
+  font-size: 66px;
+  font-weight: bold; 
+  color: antiquewhite;
+}
+.Skills-Banner hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.skills-list {
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 1em;
+  flex-direction: column;
 }
