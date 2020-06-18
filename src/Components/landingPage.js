@@ -9,8 +9,8 @@ class LandingPage extends Component {
    <Grid className="landing-grid">
      <Cell col={12}>
        <img
-       src="./img/kgaugelo.png"
-       alt="landingimg"
+       src="./img/kgauza.png"
+       alt="landingimg" 
        className="landing-img"
        />
       <div className="banner-text">

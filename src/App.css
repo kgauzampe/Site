@@ -59,12 +59,22 @@
 
 .AboutMe {
   text-align: center;
-  font-size: 50px;
 }
-
-.AboutMe p {
-  text-align: center;
-  font-size: 20px;
+.AboutMe img {
+  margin-top: 1rem;
+}
+.about-banner {
+  background-color: black; 
+  opacity: .8; 
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  color: antiquewhite;
+  padding: .75em;
+  margin-top: 1em;
+}
+.about-banner p {
+  font-size: 1.5em;
 }
 
 .skills-Banner {
@@ -78,6 +88,7 @@
   font-size: 66px;
   font-weight: bold; 
   color: antiquewhite;
+  text-align: center;
 }
 .Skills-Banner hr {
   border-top: 5px dotted white;
@@ -90,4 +101,42 @@
   font-size: 20px;
   padding: 1em;
   flex-direction: column;
+}
+.grad1-img {
+    height: 250px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactinfo > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactinfo > div img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.contactinfo div p {
+  padding: .75em;
+}
+
+.contact-banner {
+  background-color: black; 
+  opacity: .8; 
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  color: antiquewhite;
+  padding: 1.5em;
+  margin-top: 3em;
+}
+
+.contact-banner h1 {
+  text-align: center;
 }
